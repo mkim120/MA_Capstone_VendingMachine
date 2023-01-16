@@ -1,14 +1,12 @@
 # MA_Capstone_VendingMachine
 Virtual vending machine application with command-line interface allowing users to deposit money, choose a product, and return the correct change. Inventory is loaded via a text file and transactions are logged to a separate text file.
-
+___
 ## Module 1 Capstone - Vending Machine Software
-
 An application developed for the newest vending machine distributor,
 Umbrella Corp. They've released a new vending machine, Vendo-Matic 800, that's integrated
 with everyone's bank accounts, allowing customers to purchase products from their computers for their convenience.
 
 ### Application features
-
 1. The vending machine dispenses beverages, candy, chips, and gum.
 2. A main menu displays when the software runs, presenting the following options:
     ```
@@ -75,13 +73,13 @@ process menu:
         01/01/2019 12:01:25 PM Cowtales B2 $1.50 $6.75 
         01/01/2019 12:01:35 PM GIVE CHANGE: $6.75 $0.00
         ```
-9. Classes are created to be "testable" classes. Console
-input and output are limited to as few classes as possible. (WIP)
-10. Sales Report
+9. Sales Report
     - A "hidden" menu option on the main menu ("4") that writes to a sales
     report that shows the total sales since the machine started. The name of the
     file includes the date and time so each sales report is uniquely named.
-11. Unit tests demonstrating that the code works correctly.
+10. Classes are created to be "testable" classes. Console
+input and output are limited to as few classes as possible. [WIP]
+11. Unit tests demonstrating that the code works correctly. [WIP]
 ___
 ### Vending machine data file
 The input file that stocks the vending machine products is a pipe `|` delimited file. Each line is a separate product in the file and follows this format:
@@ -94,16 +92,12 @@ The input file that stocks the vending machine products is a pipe `|` delimited 
 | Type          | The product type for this row.                                     |
 
 For example:
-
 ```
 A1|Potato Crisps|3.05|Chip
 B1|Moonpie|1.80|Candy
 B2|Cowtales|1.50|Candy
 C1|Cola|1.25|Drink
 ```
-
-**Input file in repository: `vendingmachine.csv`.**
-
- ---
+---
 ### Sales report
 The output sales report file is also pipe-delimited for consistency. Each line is a separate product with the number of sales for the applicable product. At the end of the report is a blank line followed by the **TOTAL SALES** dollar amount indicating the gross sales from the vending machine.
