@@ -1,4 +1,4 @@
-# MA_Capstone_VendingMachine
+# Vendo-Matic 800
 Virtual vending machine application with command-line interface allowing users to deposit money, choose a product, and return the correct change. Inventory is loaded via a text file and transactions are logged to a separate text file.
 ___
 ## Module 1 Capstone - Vending Machine Software
