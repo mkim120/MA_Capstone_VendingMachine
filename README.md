@@ -78,8 +78,8 @@ process menu:
     report that shows the total sales since the machine started. The name of the
     file includes the date and time so each sales report is uniquely named.
 10. Classes are created to be "testable" classes. Console
-input and output are limited to as few classes as possible. [WIP]
-11. Unit tests demonstrating that the code works correctly. [WIP]
+input and output are limited to as few classes as possible.
+11. Unit tests demonstrating that the code works correctly.
 ___
 ### Vending machine data file
 The input file that stocks the vending machine products is a pipe `|` delimited file. Each line is a separate product in the file and follows this format:
